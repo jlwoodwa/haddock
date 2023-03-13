@@ -1,11 +1,11 @@
-with-compiler: ghc-9.4
+with-compiler: ghc-9.6.1
 
 packages: ./
           ./haddock-api
           ./haddock-library
           ./haddock-test
 
-with-compiler: ghc-9.4
+with-compiler: ghc-9.6.1
 
 allow-newer:
   ghc-paths:Cabal,
